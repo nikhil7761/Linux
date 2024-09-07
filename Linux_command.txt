@@ -1,0 +1,17 @@
+Linux
+
+sudo apt install net-tools
+
+rename the directory kafka2.849
+sudo mv kafka2.848 kafka
+
+move directory
+sudo mv kafka /usr/local/
+
+switch user
+su username
+
+To changePassword
+passwd
+
+
