@@ -14,4 +14,7 @@ su username
 To changePassword
 passwd
 
+to set the ipaddress
+nmtui
+
 
