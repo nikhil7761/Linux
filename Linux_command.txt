@@ -17,4 +17,13 @@ passwd
 to set the ipaddress
 nmtui
 
+ls 
+conntent of the directories
+ll
+
+pwd 
+current location
+
+
+
 
