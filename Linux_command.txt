@@ -1,4 +1,4 @@
-Linux
+Linuxcommand
 
 sudo apt install net-tools
 
