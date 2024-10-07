@@ -24,6 +24,9 @@ ll
 pwd 
 current location
 
+rm file1 file2 
+cp file1 file2 [targetpath]
+
 
 
 
