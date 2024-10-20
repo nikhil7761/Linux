@@ -24,6 +24,13 @@ ll
 pwd 
 current location
 
+to check the pid  of the process
+sudo lasof -i:<9002pid>
+
+sudo kill <pid>
+sudo kill -9 <pid>   forcefully
+
+
 rm file1 file2 
 cp file1 file2 [targetpath]
 
