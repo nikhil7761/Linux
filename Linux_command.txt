@@ -34,6 +34,11 @@ sudo kill -9 <pid>   forcefully
 rm file1 file2 
 cp file1 file2 [targetpath]
 
+mkdir new folder
+
+ls 
+ll
+
 
 
 
