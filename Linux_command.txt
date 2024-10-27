@@ -36,8 +36,9 @@ cp file1 file2 [targetpath]
 
 mkdir new folder
 
-ls 
-ll
+sudo systemctl status jenkins
+sudo systemctl restart jenkins 
+sudo systemctl stop jenkins 
 
 
 
