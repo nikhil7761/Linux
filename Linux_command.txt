@@ -41,5 +41,30 @@ sudo systemctl restart jenkins
 sudo systemctl stop jenkins 
 
 
+grep <file>
+htop
+ps aux
+top
+htop
+
+uname -a 
+df -h
+free -m
+uptime 
+whoami
+hostname
+
+ifconfig
+ping
+curl
+ssh
+wget
+
+chmod
+chown
+
+
+history 
+
 
 
