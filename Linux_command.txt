@@ -69,6 +69,8 @@ history
 to locate exact location of specific name
 whereis printf
 
+ll -it
+
 
 touch test.txt
 to count how many words inside the file
