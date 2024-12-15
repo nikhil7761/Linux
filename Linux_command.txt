@@ -76,5 +76,8 @@ touch test.txt
 to count how many words inside the file
 wc -w test.txt
 
+cmp
+to compare two files 
+
 
 
