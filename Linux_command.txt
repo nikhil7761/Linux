@@ -80,4 +80,8 @@ cmp
 to compare two files 
 
 
+uname
+basic information about linux
+
+
 
