@@ -84,4 +84,8 @@ uname
 basic information about linux
 
 
+ps
+display all running process
+
+
 
