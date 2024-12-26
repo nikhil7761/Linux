@@ -78,3 +78,18 @@ wc -w test.txt
 
 
 
+
+ls -r for reverse order want to display
+
+ls -  
+
+for unzip
+unrar x middleware.zip
+
+
+df -hT
+
+
+
+
+
