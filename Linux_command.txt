@@ -76,6 +76,21 @@ touch test.txt
 to count how many words inside the file
 wc -w test.txt
 
+cmp
+to compare two files 
+
+
+uname
+basic information about linux
+
+
+ps
+display all running process
+
+to find file folder use 
+locate 
+find
+
 
 
 
