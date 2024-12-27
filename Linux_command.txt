@@ -105,6 +105,59 @@ unrar x middleware.zip
 df -hT
 
 
+list all vms:
+xe vm-list
+
+To list only running VMs:
+xe vm-list power-state=running
+
+To list name of vms
+xe vm-list | grep name-label
+
+auto start / auto power on
+xe vm-param-set uuid=529da904-e0bd-fa51-b620-09bf52060ba0 other-config:auto_poweron=true
+xe vm-param-set uuid=72edb03b-bc94-485e-243d-cdffa2fe0d4a other-config:auto_poweron=true
+xe vm-param-set uuid=659542f6-4a43-35f1-4930-283b34c31aa7 other-config:auto_poweron=true
+xe vm-param-set uuid=bd5ec6ca-a7ef-7b6d-f471-7b9194982376 other-config:auto_poweron=true
+xe vm-param-set uuid=951d324c-d48b-5449-d631-098259c98e14 other-config:auto_poweron=true
+xe vm-param-set uuid=883b248b-310e-22f7-6db6-1c7a7fcd179a other-config:auto_poweron=true
+xe vm-param-set uuid=8b3803c3-a394-6b4d-fdb0-a0d9410ae955 other-config:auto_poweron=true
+xe vm-param-set uuid=01de71a1-995c-eaea-7fc7-6f062fd9a757 other-config:auto_poweron=true
+
+auto start all vms
+xe vm-start uuid=529da904-e0bd-fa51-b620-09bf52060ba0
+xe vm-start uuid=72edb03b-bc94-485e-243d-cdffa2fe0d4a
+xe vm-start uuid=659542f6-4a43-35f1-4930-283b34c31aa7
+xe vm-start uuid=bd5ec6ca-a7ef-7b6d-f471-7b9194982376
+xe vm-start uuid=951d324c-d48b-5449-d631-098259c98e14
+xe vm-start uuid=883b248b-310e-22f7-6db6-1c7a7fcd179a
+xe vm-start uuid=8b3803c3-a394-6b4d-fdb0-a0d9410ae955
+xe vm-start uuid=01de71a1-995c-eaea-7fc7-6f062fd9a757
+
+------------------------------------------------------------------
+
+
+ nginx and apache
+
+ for nginx 
+ ln -s /etc/nginx/sites-available/your-site.conf /etc/nginx/sites-enabled/
+
+ for apache 
+ sudo a2ensite your-site.conf
+
+config test 
+sudo nginx -t
+
+for apache 
+sudo apachectl configtest
+
+sudo systemctl reload nginx
+sudo systemctl reload apache2
+
+
+
+
+
 
 
 
