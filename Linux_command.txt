@@ -155,6 +155,11 @@ sudo systemctl reload nginx
 sudo systemctl reload apache2
 
 
+grep command
+grep stand for Global regular expression print
+
+
+
 
 
 
