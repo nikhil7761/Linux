@@ -159,7 +159,7 @@ grep command
 grep stand for Global regular expression print
 
 uname
-
+main mode
 
 
 
