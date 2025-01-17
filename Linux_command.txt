@@ -162,6 +162,10 @@ uname
 main mode
 
 
+to check vm status
+xe vm-list
+
+
 
 
 
