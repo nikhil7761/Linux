@@ -1,0 +1,13 @@
+fdisk -l
+fdisk /dev/xvdb
+m help
+n create the partician 
+p primary partician
+
+1.Enter
+2.+500M
+
+t
+change the type of the linux from linux lvm
+
+w for the save

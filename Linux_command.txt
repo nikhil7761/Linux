@@ -5,6 +5,10 @@ sudo apt install net-tools
 rename the directory kafka2.849
 sudo mv kafka2.848 kafka
 
+
+scp -i "C:\Users\Administrator\Downloads\linuxmigration.pem" "C:\Users\Administrator\Downloads\aws-schema-conversion-tool-1.0.latest.zip" ubuntu@13.127.241.94:/home/awsschema/
+
+
 move directory
 sudo mv kafka /usr/local/
 
@@ -156,7 +160,29 @@ sudo systemctl reload apache2
 
 
 grep command
-grep stand for Global regular expression print
+grep stand for " Global regular expression print"
+
+
+to give the permission to the users  other and groups
+
+add and remove we used 
+chmod u+w abc.txt  give the permission to the user
+
+chmod g-x removing permission from group
+
+chmod o+x 
+
+
+rwx
+
+to see file permission we are used ls -l
+
+file permission divided into 3 parts
+1.user
+2.group
+3.other's
+
+
 
 uname
 main mode
