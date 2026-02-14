@@ -1,0 +1,161 @@
+ssh -i niks.pem username@ip
+
+ls
+ls -l
+ls -la
+pwd
+
+cd
+cd /
+cd ..
+cd /home
+
+touch abc.txt
+touch abc{1..10}, touch niks{1..100}
+
+echo "hii revati" >> abc.txt
+cat abc.txt
+
+cp abc.txt abcd.txt
+mv abc.txt abc3.txt
+
+rmdir dirname
+rm -rf dirname
+
+ln -s /usr/share/nginx/smsapi /home/smsapi
+ln /usr/share/nginx/smsapi /home/smsapi
+ls -li
+
+whoami
+
+sudo useradd nikc
+su nikc
+exit
+
+sudo passwd nikc
+passwd
+
+sudo apt update
+sudo apt install finger
+
+wget url   wget https://example.com/file.zip
+curl url   data transfer & API testing
+
+zip file.zip file   zip abc.zip abc
+unzip file.zip      unzip abc.zip
+
+cat filename
+less filename  ,   less -n 10 
+head filename  ,   head -n 10
+head -f filename
+
+cmp file1 file2
+
+find / -name "nginx"
+
+chmod +x file.sh
+chown user:group filename
+
+ifconfig
+ip addr
+ip addr | grep eth0 | grep inet
+
+cat /etc/resolv.conf
+
+traceroute domainname
+
+netstat -tuln
+ss -tuln
+
+uname  Linux
+uname -r  4.4.0-19041-Microsoft
+
+neofetch
+lscpu
+lshw
+cal
+
+ps
+free -h
+top
+ps aux
+htop
+
+ps aux | grep processname
+
+kill -9 processid
+kill -15 processid
+pkill -9 processname
+
+systemctl stop servicename
+systemctl start servicename
+systemctl enable servicename
+systemctl status servicename
+systemctl restart servicename
+
+history
+
+sudo reboot
+sudo shutdown
+sudo shutdown -h now
+
+sudo userdel nick
+
+lsof
+
+cat /etc/passwd
+cat /etc/group
+cat /etc/os-release
+
+du -sh directory
+
+mv nick nick007
+
+sed -i 's|localhost|172.30.2.53|g' filename
+
+iostat
+
+crontab -e
+crontab -l
+30 11 * * 0    11:30
+00 10 * * 3                
+min hour day dayofmonth week
+
+gzip file
+gunzip file.gz
+
+tar -czvf archive.tar.gz folder  
+tar -xzvf archive.tar.gz
+x → extract
+v → view files
+z → gzip
+f → file
+       
+
+fg %jobid
+
+printenv
+
+route
+
+id nick
+
+nload
+iftop
+
+systemctl --user list-units --type=service
+
+ps aux --sort=%cpu
+ps aux --sort=%mem
+
+
+
+1.how to update system patches
+
+uname -r
+cat /etc/os-release
+neofetch
+sudo apt update
+sudo apt list --upgradable
+sudo apt install --only-upgrade udev xfsprogs
+sudo apt full-upgrade

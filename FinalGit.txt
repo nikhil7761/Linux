@@ -1,0 +1,35 @@
+git init
+git add .
+git commit -m "added changes"
+git remote add origin <url>
+git config --global user.name
+git config --global user.email
+git push origin master
+git branch dev
+git checkout -b dev
+git switch dev
+git status
+git diff
+git pull origin main
+git fetch origin main
+git log
+git log since=1.month
+git revert <commitid>
+git cherry-pick <commitid>
+git rebase dev
+git merge master
+git remote -v
+git remote remove origin
+git fetch -all
+git branch -m branchname   rename
+git push origin --delete branchname  
+git stash
+git stash apply
+git stash list
+git tag v1.0
+git push origin v1.0
+git pull --rebase origin main
+git reset --hard head~1
+git pull --rebase
+git reflog
+git config --list
