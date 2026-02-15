@@ -105,7 +105,6 @@ lsof
 
 cat /etc/passwd
 cat /etc/group
-cat /etc/os-release
 
 du -sh directory
 
@@ -159,3 +158,33 @@ sudo apt update
 sudo apt list --upgradable
 sudo apt install --only-upgrade udev xfsprogs
 sudo apt full-upgrade
+
+/etc
+
+/temp
+
+/ root directory
+
+/mnt   mount 
+
+/bin  
+
+/dev
+
+/opt   3 rd party software
+
+/media 
+
+firewall ------ ubuntu
+
+sudo ufw status
+sudo ufw enable
+sudo ufw allow 22/tcp
+sudo ufw allow ssh
+
+firewall ----- firewalld
+
+sudo systemctl enable firewalld
+sudo systemctl start firewalld
+
+
