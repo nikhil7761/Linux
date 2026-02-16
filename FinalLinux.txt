@@ -118,7 +118,7 @@ crontab -e
 crontab -l
 30 11 * * 0    11:30
 00 10 * * 3                
-min hour day dayofmonth week
+min hour 1-31 1-12 0-7
 
 gzip file
 gunzip file.gz
