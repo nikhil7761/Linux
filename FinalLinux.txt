@@ -181,10 +181,15 @@ sudo ufw status
 sudo ufw enable
 sudo ufw allow 22/tcp
 sudo ufw allow ssh
+sudo ufw allow from 202.88.154.34 to any port 22 proto tcp
+
 
 firewall ----- firewalld
 
 sudo systemctl enable firewalld
 sudo systemctl start firewalld
 
+ps -eo pid,comm,%cpu,%mem --sort=-%mem | head -5
+ps -eo pid,comm,%cpu,%mem --sort=-%cpu | head -10
+sudo find /var/log /* -type f -name "*.log" -mtime +7 -delete
 
