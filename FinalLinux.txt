@@ -19,6 +19,8 @@ cat abc.txt
 cp abc.txt abcd.txt
 mv abc.txt abc3.txt
 
+systemctl  is-active --quite servicename
+
 rmdir dirname
 rm -rf dirname
 
