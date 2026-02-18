@@ -80,6 +80,7 @@ free -h
 top
 ps aux
 htop
+top -bn1 | grep "Cpu(s)"
 
 ps aux | grep processname
 
