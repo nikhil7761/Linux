@@ -13,8 +13,10 @@ cd /home
 touch abc.txt
 touch abc{1..10}, touch niks{1..100}
 
-echo "hii revati" >> abc.txt
+echo "hii Nikhil" >> abc.txt   always on the next line
 cat abc.txt
+
+eco "hii ankita" > abc.txt      override above content
 
 cp abc.txt abcd.txt
 mv abc.txt abc3.txt
@@ -47,8 +49,8 @@ zip file.zip file   zip abc.zip abc
 unzip file.zip      unzip abc.zip
 
 cat filename
-less filename  ,   less -n 10 
-head filename  ,   head -n 10
+less filename  ,   less -n 10 filename
+head filename  ,   head -n 10 filename
 head -f filename
 
 cmp file1 file2
@@ -195,4 +197,7 @@ sudo systemctl start firewalld
 ps -eo pid,comm,%cpu,%mem --sort=-%mem | head -5
 ps -eo pid,comm,%cpu,%mem --sort=-%cpu | head -10
 sudo find /var/log /* -type f -name "*.log" -mtime +7 -delete
+
+
+find /home/nikhil -size +100M
 
