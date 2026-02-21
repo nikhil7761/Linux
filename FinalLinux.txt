@@ -152,7 +152,8 @@ systemctl --user list-units --type=service
 ps aux --sort=%cpu
 ps aux --sort=%mem
 
-
+to count how many words inside the file
+wc -w test.txt
 
 1.how to update system patches
 
