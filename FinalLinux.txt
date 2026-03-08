@@ -26,8 +26,8 @@ systemctl  is-active --quite servicename
 rmdir dirname
 rm -rf dirname
 
-ln -s /usr/share/nginx/smsapi /home/smsapi
-ln /usr/share/nginx/smsapi /home/smsapi
+soft-link  ln -s /usr/share/nginx/smsapi /home/smsapi
+Hard-Link  ln /usr/share/nginx/smsapi /home/smsapi
 ls -li
 
 whoami
